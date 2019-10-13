@@ -97,9 +97,26 @@ Trials: \
     FC layer, out 10 \
 7: Blur effect of size 10x10. Resize to 450x450, removed 2000 images from each class \
   Model: \
-    Kernel of 16x16 out 20 channels, padding=1, maxpool of size (2x2) \
-    Kernel of 16x16 out 40 channels, padding=1, maxpool of size (2x2) \
-    Kernel of 16x16 out 60 channels, padding=1, maxpool of size (2x2) \
-    Kernel of 16x16 out 80 channels, padding=1, maxpool of size (2x2) \
+    Kernel of 16x16 out 20 channels, padding=7, maxpool of size (2x2) \
+    Kernel of 16x16 out 40 channels, padding=7, maxpool of size (2x2) \
+    Kernel of 16x16 out 60 channels, padding=7, maxpool of size (2x2) \
+    Kernel of 16x16 out 80 channels, padding=7, maxpool of size (2x2) \
+    FC layer, out 500  \
+    FC layer, out 10 \
+7 more channels: Blur effect of size 10x10. Resize to 450x450 \
+  Model: \
+    Kernel of 16x16 out 20 channels, padding=7, maxpool of size (2x2) \
+    Kernel of 16x16 out 60 channels, padding=7, maxpool of size (2x2) \
+    Kernel of 16x16 out 100 channels, padding=7, maxpool of size (2x2) \
+    Kernel of 16x16 out 140 channels, padding=7, maxpool of size (2x2) \
+    FC layer, out 500  \
+    FC layer, out 10 \
+8:   Blur effect of size 10x10. Resize to 450x450 Only the first layer is \
+  Model: \
+    Kernel of 16x16 out 20 channels, padding=7, maxpool of size (2x2) \
+    Kernel of 4x4 out 60 channels, padding=1, maxpool of size (2x2) \
+    Kernel of 4x4 out 100 channels, padding=1, maxpool of size (2x2) \
+    Kernel of 4x4 out 140 channels, padding=1, maxpool of size (2x2) \
+    Kernel of 4x4 out 180 channels, padding=1, maxpool of size (2x2) \
     FC layer, out 500  \
     FC layer, out 10 \
