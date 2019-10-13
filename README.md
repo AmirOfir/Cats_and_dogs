@@ -1,9 +1,9 @@
 # Cats_and_dogs
 
-Data: https://www.kaggle.com/c/dogs-vs-cats/data
-Loaded to google drive to folder /content/drive/My Drive/datasets/dogscats/
-The training data contains 12500 images of each class.
-12000 images in training set, 500 images in validation set.
+Data: https://www.kaggle.com/c/dogs-vs-cats/data \
+Loaded to google drive to folder /content/drive/My Drive/datasets/dogscats/ \
+The training data contains 12500 images of each class. \
+12000 images in training set, 500 images in validation set. \
 
 Trials:
 1: Original data, Resize to 448x448, reached 85% accuracy
